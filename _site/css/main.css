@@ -33,6 +33,7 @@ a{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%;);
   animation-name: enter;
   animation-duration: 1s;
   animation-fill-mode: both;
