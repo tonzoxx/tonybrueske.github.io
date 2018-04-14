@@ -60,13 +60,13 @@ a{
 }
 
 @keyframes enter {
-    0% {top: -50%;}
-    100% {top: 50%;}
+    0% {transform: translate(-50%, -250%);}
+    100% {transform: translate(-50%, -50%);}
 }
 
 @-webkit-keyframes enter {
-    0% {top: 0;}
-    100% {top: 0;}
+  0% {-webkit-transform: translate(-50%, -250%);}
+  100% {-webkit-transform: translate(-50%, -50%);}
 }
 
 @keyframes logoinandout {
