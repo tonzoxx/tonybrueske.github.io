@@ -43,7 +43,7 @@ a{
   bottom: 2%;
   right: 2%;
   animation-name: logoinandout;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -70,13 +70,13 @@ a{
 }
 
 @keyframes logoinandout {
-  0%   {opacity:0;}
+  0%   {opacity:.3;}
   50%  {opacity:1;}
-  100% {opacity:0;}
+  100% {opacity:.3;}
 }
 
 @-webkit-keyframes logoinandout {
-  0% {-webkit-opacity: 0;}
+  0% {-webkit-opacity: .3;}
   50% {-webkit-opacity: 1;}
-  100% {-webkit-opacity: 0;}
+  100% {-webkit-opacity: .3;}
 }
