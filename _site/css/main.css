@@ -1,156 +1,51 @@
 @font-face {
-    font-family: bebasbold;
-    src: url(../fonts/bebasbold.woff);
+    font-family: bebasneue;
+    src: url(../fonts/BebasNeueBold.ttf);
 }
 
-body{
-  font-family: 'bebasbold';
-  color: white;
+body,
+p{
+  font-family: 'bebasneue';
+  color: #000;
 }
 
-h1{
-  font-size: 70px;
+a{
+  text-decoration: none;
 }
-
-h2{
-  font-size: 40px
+.projectNav a{
+  padding-right: 10px;
 }
-
-h1 small {
-    font-size: 22px;
-    color: #ffffff;
-    display: block;
-    margin: 0 0 20px 0;
+.bio p{
+  font-size: 44px;
+  margin: 20px 0;
 }
-
-.row{
-  padding: 10vw 0;
-
+.wrapper{
+  background-color: #D8D8D8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-
-.header{
-  height: 700px;
-  width: 100%;
+.centerBlock {
+  width: 466px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.header-logo {
-    background: url('../svg/logo.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: auto;
-    height: 100%;
-    max-height: 400px;
-    margin: 10vw auto 20px auto;
-}
-
-.main {
-  float: left;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.main h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 45px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  font-weight: 100;
-  color: white;
-  margin: 0;
-}
-
-.main h1.demo1 {
-  color: #176B90;
-  text-transform: capitalize;
-  font-family: 'bebasbold';
+.bottomLogo{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
 
 }
 
-.project-container {
-    background-color: #176B90;
-    background-image: url('../svg/overlay-logo.svg');
-    background-position: 100% 50%;
-    background-repeat: no-repeat;
-}
-
-.project-header{
-  padding-top: 20px;
-}
-
-.project-nav{
-  list-style: none;
-  text-align: center;
-}
-
-.svg-inject {
-    width: auto;
-    height: 100%;
-    margin: 20px 20px 0 0;
-    min-width: 300px;
-    min-height: 300px;
-}
-
-.about-container{
-  background-color: #0C4159;
-
-}
-
-.bio{
-  font-size: 30px;
-}
-
-li.nav a{
-  color:white;
-  font-size: 18px;
-}
-
-li.nav a:hover{
-  color:#1da1f2;
-}
-
-.site-footer{
-  background-color: #134C65;
-}
-
-.site-footer p{
-  color: white;
-  padding: 10px;
-  text-align: center;
-  margin: 0;
-}
-
-.contact {
-    background-color: #FFFFFF;
-    text-align: center;
-}
-
-.contact h1{
-  color: #176B90;
-}
-
-.contact-link {
-  color: #176B90;
-  font-size: 28px;
-}
-
-a:hover.contact-link{
-  color: #1da1f2;
-}
-
-
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #FFF;
-    color: #134C65;
-}
-
-
-@media screen and (max-width:480px) {
-
-  h1 {
-    font-size: 50px;
-}
-
+@media screen and (max-width:800px) {
+  .bio p{
+    font-size: 31px;
+  }
+  .centerBlock {
+    width: 325px;
+  }
 }
