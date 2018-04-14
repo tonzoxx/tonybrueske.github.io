@@ -33,11 +33,20 @@ a{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  animation-name: enter;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 .bottomLogo{
   position: absolute;
   bottom: 2%;
   right: 2%;
+  animation-name: logoinandout;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 
 }
 
@@ -48,4 +57,15 @@ a{
   .centerBlock {
     width: 325px;
   }
+}
+
+@keyframes enter {
+    from {top: -50%;}
+    to {top: 50%;}
+}
+
+@keyframes logoinandout {
+  0%   {opacity:0;}
+  50%  {opacity:1;}
+  100% {opacity:0;}
 }
