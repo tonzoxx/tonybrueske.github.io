@@ -33,7 +33,7 @@ Goals of the Tool:
 
 As a business tool a seperate page seemed most expected in terms of a library for all the colors. The palette will eventually be available via the picker tool as well so having this a seperate space will allow for simple color creation as well as advance colors for theme building. 
 
-This will also be the new standard for the other workspaces we plan to utilize for the future <a href="">Design Center</a> we are building. 
+This will also be the new standard for the other workspaces we plan to utilize for the future <a href="tonybrueske.com/ux/ui/design-center/">Design Center</a> we are building. 
 
 <img src="/assets/images/color-palette-1.png" alt="Image of Digideck's Color Palette">
 <img src="/assets/images/color-palette-2.png" alt="Image of Digideck's Color Palette with Colors">

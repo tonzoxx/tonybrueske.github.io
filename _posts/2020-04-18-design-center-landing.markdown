@@ -3,6 +3,7 @@ layout: post
 title:  "Design Center Landing"
 date:   2020-04-18 12:21:05 -0400
 categories: ux/ui
+permalink: ux/ui/design-center/
 excerpt_separator: <!--more-->
 ---
 
