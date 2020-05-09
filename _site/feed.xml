@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="tonybrueske.com/feed.xml" rel="self" type="application/atom+xml" /><link href="tonybrueske.com/" rel="alternate" type="text/html" /><updated>2020-05-02T13:42:35-04:00</updated><id>tonybrueske.com/feed.xml</id><title type="html">Tony Brueske</title><subtitle>Tony Brueskes portfolio :). </subtitle><entry><title type="html">Creating a New Color Palette</title><link href="tonybrueske.com/ux/ui/color-palette/" rel="alternate" type="text/html" title="Creating a New Color Palette" /><published>2020-04-18T12:21:06-04:00</published><updated>2020-04-18T12:21:06-04:00</updated><id>tonybrueske.com/ux/ui/color-palette</id><content type="html" xml:base="tonybrueske.com/ux/ui/color-palette/">&lt;div class=&quot;excerpt-pre-post&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="tonybrueske.com/feed.xml" rel="self" type="application/atom+xml" /><link href="tonybrueske.com/" rel="alternate" type="text/html" /><updated>2020-05-09T13:15:08-04:00</updated><id>tonybrueske.com/feed.xml</id><title type="html">Tony Brueske</title><subtitle>Tony Brueskes portfolio :). </subtitle><entry><title type="html">Creating a New Color Palette</title><link href="tonybrueske.com/ux/ui/color-palette/" rel="alternate" type="text/html" title="Creating a New Color Palette" /><published>2020-04-18T12:21:06-04:00</published><updated>2020-04-18T12:21:06-04:00</updated><id>tonybrueske.com/ux/ui/color-palette</id><content type="html" xml:base="tonybrueske.com/ux/ui/color-palette/">&lt;div class=&quot;excerpt-pre-post&quot;&gt;
   &lt;p&gt;Desiging a new color picker to be utilized withing multiple areas of an Application&lt;/p&gt;
   &lt;img src=&quot;/assets/images/color-palette-1.png&quot; alt=&quot;Image of Digideck's Color Palette&quot; /&gt;
 &lt;/div&gt;
@@ -69,9 +69,47 @@
 
 &lt;p&gt;More to Come&lt;/p&gt;</content><author><name></name></author><summary type="html">Tool to replace a pop up with a GUI that includes visual Elements</summary></entry><entry><title type="html">Style Editor</title><link href="tonybrueske.com/ux/ui/2020/04/17/style-editor.html" rel="alternate" type="text/html" title="Style Editor" /><published>2020-04-17T12:21:05-04:00</published><updated>2020-04-17T12:21:05-04:00</updated><id>tonybrueske.com/ux/ui/2020/04/17/style-editor</id><content type="html" xml:base="tonybrueske.com/ux/ui/2020/04/17/style-editor.html">&lt;div class=&quot;excerpt-pre-post&quot;&gt;
   &lt;p&gt;UX / UI for stylizing a Digideck with css in a WYSIWYG setting&lt;/p&gt;
-  
+  &lt;img src=&quot;/assets/images/style-editor-1.png&quot; alt=&quot;Image of Digideck's Color Palette&quot; /&gt;
 &lt;/div&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;More to Come&lt;/p&gt;</content><author><name></name></author><summary type="html">UX / UI for stylizing a Digideck with css in a WYSIWYG setting</summary></entry></feed>
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Users with multiple different levels of design skills need to be able to modify the look and feel of their existing Digideck Master Style (theme). Our goal was to give them an organized listing of the styles they can change as well as an intuitive way to go about selecting, modifying and creating new “styles”.&lt;/p&gt;
+
+&lt;p&gt;Goals of the tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Selection Tool to create CSS selectors for users&lt;/li&gt;
+&lt;li&gt;Organized listing for users to modify existing styles via WYSIWYG inputs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;spacer-line&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Style Editor Main View&lt;/h3&gt;
+
+&lt;p&gt;The idea for the view is to have a tool bar that users can modify CSS Selectors and CSS properties, while barely dealing with that CSS unless they want to. The Changes that the user makes will happen in real time with little buffer to give the same feel as changing a color in photoshop or similar.&lt;/p&gt;
+
+&lt;p&gt;On the left side of the page is the Style Tool bar, this area contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Master Style Selector&lt;/li&gt;
+&lt;li&gt;Viewport Tool (this also generates a media query for the css added)&lt;/li&gt;
+&lt;li&gt;Show and Hide all, to allow for users to view base styling&lt;/li&gt;
+&lt;li&gt;Move to Top or Bottom Buttons&lt;/li&gt;
+&lt;li&gt;Search Bar that searches title and CSS selector&lt;/li&gt;
+&lt;li&gt;Style Listing (CSS selectors)&lt;/li&gt;
+&lt;li&gt;Selecton Tool, for filtering and adding new styles&lt;/li&gt;
+&lt;li&gt;Manual Style Add button&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/style-editor-1.png&quot; alt=&quot;Image of Digideck's Style Editor&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Single Style View&lt;/h3&gt;
+
+&lt;p&gt;Once a User enters the Style they’d like to change they’ll be met with a similar but different tool bar that will contain any existing styles with inputs to change.&lt;/p&gt;
+
+&lt;p&gt;In this example the User clicked on the Lower Header Text Style and is presentated with the font-size and the color of the text. The user can then use those inputs to customize the look and feel of that item.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/style-editor-2.png&quot; alt=&quot;Image of Digideck's Single Style Editor with a GUI&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">UX / UI for stylizing a Digideck with css in a WYSIWYG setting</summary></entry></feed>
